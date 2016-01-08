@@ -1,0 +1,4 @@
+1.如果子类要调用父类的方法，该方法有在子类中被重写了。那么就用super.methon 来调用父类的方法
+2.如果不想某个类被初始化，那么就用abstract这个关键字将它标记为抽象
+3.java所有的类都是object（java.lang.Object）的直接或者间接子类
+4.声明接口关键字是interface，实现接口的关键字是implements 关键字
