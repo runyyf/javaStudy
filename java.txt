@@ -2,3 +2,17 @@
 2.如果不想某个类被初始化，那么就用abstract这个关键字将它标记为抽象
 3.java所有的类都是object（java.lang.Object）的直接或者间接子类
 4.声明接口关键字是interface，实现接口的关键字是implements 关键字
+
+5.final的变量代表不能改变值  final的method代表不能覆盖掉该method  final的类代表不能继承该类
+6.autoboxing机制, static 变量共享内存。
+7.tostring and  Integer.parseInt();带逗号的格式化,string.format("%,d",1000000);
+8.Date()类 .完整时间%tc  只有时间%tr  , 周月日 %tA%tB%td
+  Calendar cal = Calendar.getInstance();  对静态方法的调用
+  //除了直接获取当前时间 
+
+
+9.关于异常，Exception---IOException,InterruptedException,RuntimeException  
+  finally{}中的内容最后一定会执行
+
+10.在frame上放置widget类型。frame.getContentPane().add(myButton)
+11.在widget上绘制2D图形graphics.fillOval()
