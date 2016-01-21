@@ -16,3 +16,38 @@
 
 10.在frame上放置widget类型。frame.getContentPane().add(myButton)
 11.在widget上绘制2D图形graphics.fillOval()
+
+
+
+关于GUI
+1.三大管理器。borderLayout（frame框架默认），flowLayout（jpanel默认），boxlayout
+ctrl+D 复制当前行，ctrl+w 全选当前行
+
+
+文件序列化（类名后实现）implements Serializable
+//FIleOutputStream ，FileInputStream，os.writeObject(),osInput.readObject();
+
+//写文件的时候用BufferedWriter 写入的是内存，用flush()方法直接写入文件
+。用FileWrite直接写入文件，读取的话用BufferedReader类
+
+
+
+//socket
+Socket（IP,PORT）,getOutputStream()设置socket输入，用PrintWrite类来实现，用flush来实时播发
+
+
+
+
+//关于thread
+实现 implement Runnable ，然后new一个Runnable对象后，在new一个Thread对象来进行线程操作
+Thread.start()启动线程
+
+
+
+
+
+
+
+
+
+
